@@ -8,9 +8,8 @@ namespace Content.Shared._PFNStation.Flash;
 /// This handles multiplying the flashbang duration outside of a Switchable Overlay.
 /// This will probably be replaced at a later date, as I really do not like having to work around it like this, but it works for now.
 /// </summary>
-public abstract class FlashDurationMultiplierSystem<TComp, TEvent> : EntitySystem
+public abstract class FlashWeaknessSystem<TComp> : EntitySystem
     where TComp :  FlashWeaknessComponent
-    where TEvent : InstantActionEvent
 {
     public override void Initialize()
     {

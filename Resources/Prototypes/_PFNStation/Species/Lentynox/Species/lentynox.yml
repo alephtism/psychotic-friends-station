@@ -49,7 +49,7 @@
   # ---SPEECH---
   - type: Speech
     speechVerb: Lentynox
-    speechSounds: Bass Instrument
+    speechSounds: Tenor
 
   # ---BODY AND COLLISIONBOX---
   - type: Fixtures

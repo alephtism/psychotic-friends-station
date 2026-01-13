@@ -1,0 +1,9 @@
+﻿# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+- type: speechVerb
+  id: Lentynox
+  name: chat-speech-verb-name-lentynox
+  speechVerbStrings:
+  - chat-speech-verb-felinid-1
+  - chat-speech-verb-felinid-2
+  - chat-speech-verb-felinid-3

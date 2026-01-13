@@ -9,7 +9,7 @@
 - type: species
   id: Gingerbread
   name: Gingerbread
-  roundStart: true
+  roundStart: false
   prototype: MobGingerbread
   sprites: MobGingerbreadSprites
   markingLimits: MobGingerbreadMarkingLimits
@@ -35,7 +35,7 @@
     RLeg: MobGingerbreadRLeg
     LFoot: MobGingerbreadLFoot
     RFoot: MobGingerbreadRFoot
-    
+
 - type: markingPoints
   id: MobGingerbreadMarkingLimits
   points:
@@ -52,7 +52,7 @@
     HeadSide:
       points: 1
       required: false
-    Tail: 
+    Tail:
       points: 1
       required: false
     Chest:

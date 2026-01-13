@@ -24,7 +24,7 @@
     torso:
       part: TorsoLentynox
       organs:
-        heart: OrganAnimalHeart
+        heart: OrganHumanHeart
         lungs: OrganHumanLungs
         stomach: OrganLentynoxStomach
         liver: OrganAnimalLiver

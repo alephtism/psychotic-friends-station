@@ -44,5 +44,10 @@
   - type: Metabolizer
     metabolizerTypes: [ Lentynox ]
     groups:
+     - id: Food
+     - id: Drink
+     - id: Medicine
      - id: Poison
+     - id: Narcotic
+     - id: Alcohol
 

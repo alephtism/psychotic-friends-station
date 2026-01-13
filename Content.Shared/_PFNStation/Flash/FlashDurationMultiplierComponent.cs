@@ -1,6 +1,9 @@
-﻿namespace Content.Shared._PFNStation.Flash;
+﻿using Robust.Shared.GameStates;
 
-public sealed class FlashDurationMultiplierComponent
+namespace Content.Shared._PFNStation.Flash;
+
+[RegisterComponent, NetworkedComponent]
+public sealed partial class FlashDurationMultiplierComponent : FlashWeaknessComponent
 {
-    
+
 }

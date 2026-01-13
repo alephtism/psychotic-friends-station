@@ -24,7 +24,7 @@ SPDX-License-Identifier: MIT
   <GuideEntityEmbed Entity="MobDiona" Caption="Diona"/>
   <GuideEntityEmbed Entity="MobDwarf" Caption="Dwarf"/>
   <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
-  <GuideEntityEmbed Entity="MobGingerbread" Caption="Gingerbread"/>
+  <GuideEntityEmbed Entity="MobLentynox" Caption="Lentynox"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="MobHarpy" Caption="Harpy"/>

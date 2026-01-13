@@ -1,0 +1,17 @@
+﻿- type: marking
+  id: LentynoxHeadTopEarDefault
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  speciesRestriction: [Lentynox]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: default
+
+- type: marking
+  id: LentynoxTailDefault
+  markingCategory: Tail
+  bodyPart: Tail
+  speciesRestriction: [Lentynox]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/tail_markings.rsi
+    state: default

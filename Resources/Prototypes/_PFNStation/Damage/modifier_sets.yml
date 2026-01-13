@@ -1,0 +1,4 @@
+﻿- type: damageModifierSet
+  id: LentynoxFur
+  coefficients:
+    Cold: 1.05
