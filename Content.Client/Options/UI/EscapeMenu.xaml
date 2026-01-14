@@ -17,6 +17,7 @@ SPDX-License-Identifier: MIT
             xmlns:changelog="clr-namespace:Content.Client.Changelog"
             xmlns:ui="clr-namespace:Content.Client.Voting.UI"
             xmlns:ui1="clr-namespace:Content.Client.Options.UI"
+            xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
             Title="{Loc 'ui-escape-title'}"
             Resizable="False">
 
@@ -27,6 +28,7 @@ SPDX-License-Identifier: MIT
         <Button Access="Public" Name="RulesButton" Text="{Loc 'ui-escape-rules'}" />
         <Button Access="Public" Name="GuidebookButton" Text="{Loc 'ui-escape-guidebook'}" />
         <Button Access="Public" Name="WikiButton" Text="{Loc 'ui-escape-wiki'}" />
+        <cc:CommandButton Command="menurespawn" Name="MenuRespawnButton" Text="{Loc 'ui-escape-respawn'}"/>
         <Button Access="Public" Name="DisconnectButton" Text="{Loc 'ui-escape-disconnect'}" />
         <Button Access="Public" Name="QuitButton" Text="{Loc 'ui-escape-quit'}" />
     </BoxContainer>
