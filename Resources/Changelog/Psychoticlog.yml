@@ -1,0 +1,50 @@
+﻿Entries:
+- author: telepole
+  changes:
+    - type: Add
+      message: Added a component to make an entity be stunned longer by flashbangs without having nightvision/thermalvision
+  id: 1
+  time: '2026-01-10T15:14:00.0000000+00:00'
+
+- author: telepole
+  changes:
+    - type: Add
+      message: Added a component to expand the chat hearing range of a player.
+  id: 2
+  time: '2026-01-11T10:54:00.0000000+00:00'
+
+- author: telepole
+  changes:
+    - type: Tweak
+      message: \"Replaced" Funky Station's branding with our own.
+  id: 3
+  time: '2026-01-12T14:43:00.0000000+00:00'
+
+- author: telepole
+  changes:
+    - type: Tweak
+      message: Replaced most of Funky Station's lobby backgrounds and songs
+  id: 4
+  time: '2026-01-12T18:52:00.0000000+00:00'
+
+- author: telepole
+  changes:
+    - type: Tweak
+      message: Added The Bart.
+  id: 5
+  time: '2026-01-12T18:52:00.0000000+00:00'
+
+- author: telepole
+  changes:
+    - type: Add
+      message: Added a button to the escape menu that lets players respawn/return to the lobby so they can select another character.
+  id: 6
+  time: '2026-01-13T18:11:00.0000000+00:00'
+
+- author: telepole
+  changes:
+  - type: Add
+    message: Finalized the Lentynox's sprites, making them ready to be released.
+  id: 7
+  time: '2026-01-14T10:33:00.0000000+00:00'
+
