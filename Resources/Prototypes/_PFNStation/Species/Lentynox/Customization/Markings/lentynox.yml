@@ -7,7 +7,7 @@
   speciesRestriction: [IPC]
   coloring:
     default:
-      type: !type:TattooColoring
+      type: !type:SkinColoring
   sprites:
   - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
     state: default_outer
@@ -21,7 +21,7 @@
   speciesRestriction: [IPC]
   coloring:
     default:
-      type: !type:TattooColoring
+      type: !type:SkinColoring
   sprites:
   - sprite: _PFNStation/Mobs/Customization/Lentynox/tail_markings.rsi
     state: default
