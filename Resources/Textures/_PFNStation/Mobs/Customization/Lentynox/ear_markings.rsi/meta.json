@@ -5,7 +5,23 @@
   "size": {"x": 32, "y": 32},
   "states": [
     {
-      "name": "default",
+      "name": "default_outer",
+      "directions": 4
+    },
+	{
+      "name": "default_inner",
+      "directions": 4
+    },
+	{
+      "name": "tufted_outer",
+      "directions": 4
+    },
+	{
+      "name": "long_outer",
+      "directions": 4
+    },
+	{
+      "name": "long_inner",
       "directions": 4
     }
   ]

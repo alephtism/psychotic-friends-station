@@ -15,7 +15,7 @@
   roundStart: true
   prototype: MobLentynox
   sprites: MobLentynoxSprites
-  defaultSkinTone: "#747474"
+  defaultSkinTone: "#A5A5A5"
   markingLimits: MobLentynoxMarkingLimits
   dollPrototype: MobLentynoxDummy
   skinColoration: Hues
