@@ -28,26 +28,46 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/space_asshole.ogg
-    - /Audio/Lobby/every_light_is_blinking_at_once.ogg
+     - /Audio/Lobby/space_asshole.ogg
+     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
     # Goobstation - Custom lobby music
 #    - /Audio/Lobby/skubstep.ogg
-#    - /Audio/Lobby/sneedsfeedandseed.ogg
+     - /Audio/Lobby/sneedsfeedandseed.ogg
 #    - /Audio/Lobby/honk.ogg
 #    - /Audio/Lobby/clownalwayswins.ogg
 #    - /Audio/Lobby/clownwmv.ogg
 #    - /Audio/Lobby/dawsonschristian.ogg
-    - /Audio/Lobby/thewizard.ogg
+     - /Audio/Lobby/thewizard.ogg
 #    - /Audio/Lobby/skubstub.ogg
-    - /Audio/Lobby/space_radiation.ogg
-    - /Audio/Lobby/droopy_likes_your_face.ogg
-    - /Audio/Lobby/spacers_home.ogg
-    - /Audio/Lobby/starpilotshymn.ogg
-    - /Audio/Lobby/tusmentiras.ogg
-    - /Audio/Lobby/ironwill.ogg
-    - /Audio/Lobby/Minerals.ogg
-    - /Audio/Lobby/ashwalking.ogg
-    - /Audio/Lobby/dagd.ogg
-    - /Audio/Lobby/meltdown.ogg
+#    - /Audio/Lobby/space_radiation.ogg
+     - /Audio/Lobby/droopy_likes_your_face.ogg
+#    - /Audio/Lobby/spacers_home.ogg
+#    - /Audio/Lobby/starpilotshymn.ogg
+#    - /Audio/Lobby/tusmentiras.ogg
+#    - /Audio/Lobby/ironwill.ogg
+#    - /Audio/Lobby/Minerals.ogg
+#    - /Audio/Lobby/ashwalking.ogg
+#    - /Audio/Lobby/dagd.ogg
+#    - /Audio/Lobby/meltdown.ogg
     # funky station music
-    - /Audio/_Funkystation/Music/an_alien_song_alien_kids.ogg
+     - /Audio/_Funkystation/Music/an_alien_song_alien_kids.ogg
+    # PFN Station music
+     - /Audio/_PFNStation/Lobby/tiantian.ogg
+     - /Audio/_PFNStation/Lobby/alucard.ogg
+     - /Audio/_PFNStation/Lobby/areyouready.ogg
+     - /Audio/_PFNStation/Lobby/bossanovaparty.ogg
+     - /Audio/_PFNStation/Lobby/chocological.ogg
+     - /Audio/_PFNStation/Lobby/chopshop.ogg
+     - /Audio/_PFNStation/Lobby/crossroadtimes.ogg
+     - /Audio/_PFNStation/Lobby/demiseoftheritual.ogg
+     - /Audio/_PFNStation/Lobby/hero.ogg
+     - /Audio/_PFNStation/Lobby/jodellavitanonhocapitouncazzo.ogg
+     - /Audio/_PFNStation/Lobby/lotsoffriends.ogg
+     - /Audio/_PFNStation/Lobby/neighbourgonnafindme.ogg
+     - /Audio/_PFNStation/Lobby/nenten.ogg
+     - /Audio/_PFNStation/Lobby/nomore.ogg
+     - /Audio/_PFNStation/Lobby/peoplewithouthope.ogg
+     - /Audio/_PFNStation/Lobby/themanwhosoldtheworld.ogg
+     - /Audio/_PFNStation/Lobby/triplebaka.ogg
+     - /Audio/_PFNStation/Lobby/vinter.ogg
+     - /Audio/_PFNStation/Lobby/windsoffjords.ogg

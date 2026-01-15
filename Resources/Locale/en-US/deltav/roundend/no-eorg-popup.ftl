@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-no-eorg-popup-title = Funky Station
+no-eorg-popup-title = Psychotic Friends Station
 no-eorg-popup-label = Welcome to the End of Round!
 no-eorg-popup-message = [bold]End-of-round grief (EORG)[/bold] is not allowed. Please stay in character until the lobby screen appears to maintain an immersive environment for everyone. Thank you for respecting the community rules!
 no-eorg-popup-rule = [bold][color=#a4885c]Rule 13: No End-Of-Round Griefing (EORG).[/color][/bold]

@@ -1,0 +1,266 @@
+# SPDX-FileCopyrightText: 2025 VMSolidus <evilexecutive@gmail.com>
+# SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+- type: speechSounds #Lucas Instrument 1
+  id: Acoustic Guitar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/acousticguitar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/acousticguitar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/acousticguitar_1_exclaim.ogg
+
+- type: speechSounds #Boney Instrument 1
+  id: Bark
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/bark_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/bark_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/bark_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 13
+  id: Bass Instrument
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/bass_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/bass_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/bass_1_exclaim.ogg
+
+- type: speechSounds #Duster Instrument 1
+  id: Bass Guitar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/bassguitar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/bassguitar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/bassguitar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 29
+  id: Buggy
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/bug_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/bug_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/bug_1_exclaim.ogg
+
+- type: speechSounds #Salsa Instrument 1
+  id: Cuica
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/cuica_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/cuica_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/cuica_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 31
+  id: Cyborg Roar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/cyborgroar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/cyborgroar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/cyborgroar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 33
+  id: Eerie Howl
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/eeriehowl_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/eeriehowl_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/eeriehowl_1_exclaim.ogg
+
+- type: speechSounds #Kumatora Instrument 1
+  id: Electric Guitar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/electricguitar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/electricguitar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/electricguitar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 56
+  id: Electric Shock
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/electricshock_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/electricshock_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/electricshock_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 56 Pitched Down
+  id: Electric Shock Syndie
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/electricshock_2.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/electricshock_2_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/electricshock_2_exclaim.ogg
+
+- type: speechSounds #Battle Sound 1
+  id: Flute 1
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/flute_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/flute_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/flute_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 49
+  id: Flute 2
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/flute_2.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/flute_2_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/flute_2_exclaim.ogg
+
+- type: speechSounds #Battle Sound 42
+  id: Ghost Giggle
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/ghost_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/ghost_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/ghost_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 57
+  id: Giggle
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/giggle_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/giggle_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/giggle_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 2
+  id: Metallic
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/metallic_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/metallic_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/metallic_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 60
+  id: Monster Roar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/monsterroar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/monsterroar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/monsterroar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 39
+  id: Oink
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/oink_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/oink_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/oink_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 9
+  id: Ooze
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/ooze_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/ooze_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/ooze_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 53
+  id: Plate Smash
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/platesmash_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/platesmash_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/platesmash_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 41
+  id: Roar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/roar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/roar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/roar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 26
+  id: Rock Guitar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/rockguitar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/rockguitar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/rockguitar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 5
+  id: Sand Lizard #i kinda gave up trying to give this sound a proper name
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/sandlizard_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/sandlizard_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/sandlizard_1_exclaim.ogg
+
+- type: speechSounds #Flint Instrument 1
+  id: Saxophone
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/saxophone_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/saxophone_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/saxophone_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 44
+  id: Shine
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/shiny_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/shiny_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/shiny_1_exclaim.ogg
+
+- type: speechSounds #Claus Instrument 1
+  id: Sitar
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/sitar_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/sitar_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/sitar_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 20
+  id: Synth 1
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/synth_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/synth_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/synth_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 50
+  id: Trumpets
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/trumpets_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/trumpets_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/trumpets_1_exclaim.ogg
+
+- type: speechSounds #Battle Sound 32
+  id: Wisp
+  saySound:
+    path: /Audio/_PFNStation/Voice/Talk/wisp_1.ogg
+  askSound:
+    path: /Audio/_PFNStation/Voice/Talk/wisp_1_ask.ogg
+  exclaimSound:
+    path: /Audio/_PFNStation/Voice/Talk/wisp_1_exclaim.ogg

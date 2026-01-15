@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "telepole",
+  "size": {"x": 32, "y": 32},
+  "states": [
+    {
+      "name": "tuxedo",
+      "directions": 4
+    },
+    {
+      "name": "striped",
+      "directions": 4
+    }
+  ]
+}

@@ -69,6 +69,7 @@ using Content.Server.Speech.EntitySystems;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
 using Content.Shared._Funkystation.CCVars;
+using Content.Shared._PFNStation;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
@@ -1123,6 +1124,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         var recipients = new Dictionary<ICommonSession, ICChatRecipientData>();
         var ghostHearing = GetEntityQuery<GhostHearingComponent>();
+        var expandedHearing = GetEntityQuery<ExpandedHearingRangeComponent>();
         var xforms = GetEntityQuery<TransformComponent>();
 
         var transformSource = xforms.GetComponent(source);
@@ -1134,6 +1136,13 @@ public sealed partial class ChatSystem : SharedChatSystem
             if (player.AttachedEntity is not { Valid: true } playerEntity)
                 continue;
 
+            var expandedHearingDist = 0f;
+            if (expandedHearing.HasComponent(playerEntity))
+            {
+                var expandedHearingSource = expandedHearing.GetComponent(playerEntity);
+                expandedHearingDist = expandedHearingSource.HearingRange;
+            }
+
             var transformEntity = xforms.GetComponent(playerEntity);
 
             if (transformEntity.MapID != sourceMapId)
@@ -1143,7 +1152,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
             // even if they are a ghost hearer, in some situations we still need the range
             if (sourceCoords.TryDistance(EntityManager, transformEntity.Coordinates, out var distance) &&
-                distance < voiceGetRange)
+                distance - expandedHearingDist < voiceGetRange)
             {
                 recipients.Add(player, new ICChatRecipientData(distance, observer));
                 continue;

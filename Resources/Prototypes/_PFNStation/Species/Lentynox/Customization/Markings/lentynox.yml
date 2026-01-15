@@ -1,0 +1,120 @@
+﻿### ============DEFAULTS============
+
+- type: marking
+  id: LentynoxHeadTopEarDefault
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type: !type:TattooColoring
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: default_outer
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: default_inner
+
+- type: marking
+  id: LentynoxTailDefault
+  markingCategory: Tail
+  bodyPart: Tail
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type: !type:TattooColoring
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/tail_markings.rsi
+    state: default
+
+### ============EARS============
+
+- type: marking
+  id: LentynoxHeadTopEarTufted
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: tufted_outer
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: default_inner
+
+- type: marking
+  id: LentynoxHeadTopEarLong #long ass ears
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: long_outer
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/ear_markings.rsi
+    state: long_inner
+
+### ============FACE FUR PATTERNS============
+
+- type: marking
+  id: LentynoxFaceFurTuxedo
+  markingCategory: Snout
+  bodyPart: Snout
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/snout_markings.rsi
+    state: tuxedo
+
+- type: marking
+  id: LentynoxFaceFurStriped
+  markingCategory: Snout
+  bodyPart: Snout
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/snout_markings.rsi
+    state: striped
+
+- type: marking
+  id: LentynoxFaceFurSealPoint
+  markingCategory: Snout
+  bodyPart: Snout
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/snout_markings.rsi
+    state: sealpoint
+
+### ============BODY FUR PATTERNS============
+
+- type: marking
+  id: LentynoxBodyFurTuxedo
+  markingCategory: Chest
+  bodyPart: Chest
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/chest_markings.rsi
+    state: tuxedo
+
+- type: marking
+  id: LentynoxBodyFurStriped
+  markingCategory: Chest
+  bodyPart: Chest
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/chest_markings.rsi
+    state: striped
+
+### ============TAILS============
+
+- type: marking
+  id: LentynoxTailPoofy
+  markingCategory: Tail
+  bodyPart: Tail
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/tail_markings.rsi
+    state: poofy
+
+- type: marking
+  id: LentynoxTailStriped
+  markingCategory: Tail
+  bodyPart: Tail
+  speciesRestriction: [Lentynox, IPC]
+  sprites:
+  - sprite: _PFNStation/Mobs/Customization/Lentynox/tail_markings.rsi
+    state: striped

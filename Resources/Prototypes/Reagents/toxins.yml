@@ -557,6 +557,9 @@
           - !type:OrganType
             type: Arachnid
             shouldHave: false
+          - !type:OrganType
+            type: Lentynox
+            shouldHave: false
         type: Local
         visualType: MediumCaution
         messages: [ "generic-reagent-effect-sick" ]
@@ -573,6 +576,9 @@
           - !type:OrganType
             type: Arachnid
             shouldHave: false
+          - !type:OrganType
+            type: Lentynox
+            shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:OrganType
@@ -583,6 +589,9 @@
           shouldHave: false
         - !type:OrganType
           type: Arachnid
+          shouldHave: false
+        - !type:OrganType
+          type: Lentynox
           shouldHave: false
         damage:
           types:
@@ -597,6 +606,12 @@
         conditions:
         - !type:OrganType
           type: Arachnid
+        reagent: Protein
+        amount: 0.5
+      - !type:AdjustReagent
+        conditions:
+        - !type:OrganType
+          type: Lentynox
         reagent: Protein
         amount: 0.5
       - !type:AdjustReagent

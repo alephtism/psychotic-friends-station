@@ -12,6 +12,7 @@
 
 using System.Net;
 using Content.Server.Database;
+using Content.Shared._PFNStation.CVars;
 using Content.Shared.CCVar;
 using Content.Shared.Info;
 using Robust.Shared.Configuration;
@@ -24,6 +25,7 @@ public sealed class RulesManager
     [Dependency] private readonly IServerDbManager _dbManager = default!;
     [Dependency] private readonly INetManager _netManager = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
+    [Dependency] private readonly IConfigurationManager _configurationManager = default!;
 
     private static DateTime LastValidReadTime => DateTime.UtcNow - TimeSpan.FromDays(60);
 
@@ -48,7 +50,10 @@ public sealed class RulesManager
             CoreRules = _cfg.GetCVar(CCVars.RulesFile),
             ShouldShowRules = !isLocalhost && !hasCooldown,
         };
-        _netManager.ServerSendMessage(showRulesMessage, e.Channel);
+        if (_configurationManager.GetCVar(CCVars_PFN.RulesPopupEnabled))
+        {
+            _netManager.ServerSendMessage(showRulesMessage, e.Channel);
+        }
     }
 
     private async void OnRulesAccepted(RulesAcceptedMessage message)

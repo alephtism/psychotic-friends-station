@@ -1,0 +1,36 @@
+﻿<!--
+
+
+SPDX-License-Identifier: MIT
+-->
+
+<Document>
+  # Lentynoxes
+
+  <Box>
+    <GuideEntityEmbed Entity="MobLentynox" Caption=""/>
+  </Box>
+
+  The Lentynox are an alien species of big cat-like people hailing from the jungle planet of Naviara.
+
+  ## Diet
+
+  The Lentynox have similar diets to Earth cats, being unable to metabolize Theobromine or Allicin, and while they are
+  technically omnivorous, their stomachs cannot metabolize non-protein-based foods as well, only gaining half as much hunger
+  back from them. They can, however, eat raw meat without any consequences.
+
+  ## Claws
+
+  The Lentynox have sharp, retractable claws, which deal [color=orange]Slashing[/color] damage.
+
+  ## Damage
+
+  Hailing from a hot jungle planet, Lentynoxes are more adapted to higher temperatures than other common species, and as
+  a result, they handle colder temperatures worse, and suffer 5% more [color=cornflowerblue]Cold[/color] damage.
+
+  ## Sharp Hearing
+
+  Lentynoxes's have sensitive ears, being able to hear crewmember's talk 20% further than other species. However, this
+  makes them more vulnerable to being flashbanged, being stunned 2x longer than other species.
+
+</Document>
